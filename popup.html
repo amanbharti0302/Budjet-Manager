@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keylogger Extension</title>
     <script src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./public/popup.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <h1>Budget Manager</h1>
-    <h2>Total Spent: <span id="total">0</span></h2>
+    <div class="w3-container w3-padding-16 w3-blue w3-round-large" style="width: 280px;overflow: hidden;">
+    <h4 class="head">Budget Manager</h4>
+    <h4>Total Spent: <span id="total">0</span></h4>
     <h2>Limit: <span id="limit">0</span></h2>
-    <h3>Enter Amount</h3>
-    <input id="amount" type="text">
-    <input id="spendAmount" type="submit" value="Spend"/>
+    <h4>Enter Amount</h4>
+    <label for="amount"></label>
+    <input id="amount" class="w3-margin-bottom w3-input" type="text">
+    <input id="spendAmount" class="w3-btn w3-orange" type="submit" value="Spend"/>
+    </div>
 </body>
 
 <script src="popup.js"></script>
