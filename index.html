@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./public/index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <h1>Budget Manager Options</h1>
-    <h2>Limit: <input id="limit" type="text"></h2>
-    <input id="saveLimit" type="submit" value="Save Limit"/>
-    <input id="resetTotal" type="submit" value="Reset Total" >
+    <div class="w3-card w3-display-middle w3-padding-16 w3-round-medium main-div">
+    <div class="w3-padding-16 w3-margin">
+    <div class="w3-padding-16 w3-round-medium div2">
+    <h2 class="w3-padding-16 w3-myfont">Budget Manager Options</h2>
+    <label for="limit" style="margin: auto;margin-left: 10px;">LIMIT :</label>
+    <br>
+    <input id="limit" class="limit-input" type="text">
+    <br>
+    <div class="btn-cntainer">
+    <input class="w3-btn w3-orange" id="saveLimit" type="submit" value="Save Limit"/>
+    <input class="w3-button w3-green" id="resetTotal" type="submit" value="Reset Total" >
+    </div>
+    </div>    
+    </div>
+    </div>
 </body>
 <script src="options.js"></script>
 </html>

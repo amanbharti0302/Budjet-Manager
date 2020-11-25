@@ -1,0 +1,22 @@
+{
+  "name": "keylogger",
+  "version": "1.0.0",
+  "description": "\"A demo form to demonstrate\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanbharti0302/keylogger.git"
+  },
+  "author": "aman bharti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanbharti0302/keylogger/issues"
+  },
+  "homepage": "https://github.com/amanbharti0302/keylogger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
