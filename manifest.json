@@ -12,15 +12,24 @@
         "default_icon": "icon16.png",
         "default_popup": "popup.html"
     },
-    "options_page":"index.html",
-    "background": {
-        "scripts": ["background.js"],
-        "persistent":false
+    "background":{
+        "scripts": ["background.js"]
     },
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["index.js"]
+        }
+    ],
+    "options_page":"index.html",
     "permissions":[
+        "*://*.google.com/",
         "storage",
         "notifications",
-        "http://*.google.com/",
-        "contextMenus"
+        "contextMenus",
+        "webRequest",
+        "webRequestBlocking",
+        "tabs",
+        "<all_urls>"
     ]
 }

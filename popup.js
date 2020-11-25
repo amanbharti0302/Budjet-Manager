@@ -32,8 +32,6 @@ $(function(){
             $('#total').text(newTotal);
             $('#amount').val('');
 
-           
-
         });
     });
 });
