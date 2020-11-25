@@ -12,8 +12,10 @@
         "default_icon": "icon16.png",
         "default_popup": "popup.html"
     },
+    "options_page":"index.html",
     "permissions":[
         "storage",
+        "notifications",
         "http://*.google.com/"
     ]
 }
